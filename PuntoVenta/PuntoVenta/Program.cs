@@ -1,4 +1,9 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using PuntoVenta.Data;
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<PuntoVentaContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PuntoVentaContext") ?? throw new InvalidOperationException("Connection string 'PuntoVentaContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
