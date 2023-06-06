@@ -15,5 +15,18 @@ namespace PuntoVenta.Data
         }
 
         public DbSet<PuntoVenta.Models.Usuario> Usuario { get; set; } = default!;
+
+        public DbSet<PuntoVenta.Models.TipoProducto> TipoProducto { get; set; } = default!;
+
+        public DbSet<PuntoVenta.Models.Producto> Producto { get; set; } = default!;
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TipoProducto>()
+                .HasMany(e => e.Productos)
+                .WithOne(e => e.TipoProducto)
+                .HasForeignKey(e => e.TipoProductoId)
+                .HasPrincipalKey(e => e.Id);
+        }
     }
 }
