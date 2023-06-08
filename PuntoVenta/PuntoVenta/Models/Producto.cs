@@ -24,7 +24,9 @@ namespace PuntoVenta.Models
         [ForeignKey("TipoProductoId")]
         public TipoProducto? TipoProducto { get; set; }
 
-        #pragma warning disable CS8618
+        public virtual List<VentaDetalle>? VentaDetalles { get; set; } = new List<VentaDetalle>();
+
+#pragma warning disable CS8618
         public Producto() { }
 
         public Producto(string nombre, int stock, decimal precio, int tipoProductoId)

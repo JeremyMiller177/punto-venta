@@ -22,7 +22,9 @@ namespace PuntoVenta.Models
         [StringLength(50)]
         public string Contrasena { get; set; }
 
-        #pragma warning disable CS8618
+        public ICollection<VentaEncabezado>? VentaEncabezados { get; }
+
+#pragma warning disable CS8618
         public Usuario() { }
 
         public Usuario(string nombre, string correo, string contrasena)

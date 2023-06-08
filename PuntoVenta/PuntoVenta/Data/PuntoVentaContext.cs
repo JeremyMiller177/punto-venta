@@ -20,13 +20,10 @@ namespace PuntoVenta.Data
 
         public DbSet<PuntoVenta.Models.Producto> Producto { get; set; } = default!;
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<TipoProducto>()
-                .HasMany(e => e.Productos)
-                .WithOne(e => e.TipoProducto)
-                .HasForeignKey(e => e.TipoProductoId)
-                .HasPrincipalKey(e => e.Id);
-        }
+        public DbSet<PuntoVenta.Models.VentaEncabezado> VentaEncabezado { get; set; } = default!;
+
+        public DbSet<PuntoVenta.Models.VentaDetalle> VentaDetalle { get; set; } = default!;
+
+        public DbSet<PuntoVenta.Models.Cliente> Cliente { get; set; } = default!;
     }
 }
