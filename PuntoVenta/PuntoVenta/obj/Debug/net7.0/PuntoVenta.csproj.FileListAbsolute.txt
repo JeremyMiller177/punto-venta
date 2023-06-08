@@ -9,6 +9,10 @@ C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Humanizer.dll
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Build.dll
@@ -37,6 +41,10 @@ C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -254,6 +262,7 @@ C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\obj\Debug\net7
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\obj\Debug\net7.0\PuntoVenta.AssemblyInfoInputs.cache
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\obj\Debug\net7.0\PuntoVenta.AssemblyInfo.cs
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\obj\Debug\net7.0\PuntoVenta.csproj.CoreCompileInputs.cache
+C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\obj\Debug\net7.0\PuntoVenta.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\obj\Debug\net7.0\PuntoVenta.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\obj\Debug\net7.0\PuntoVenta.RazorAssemblyInfo.cache
 C:\Users\LUCHO\Documents\GitHub\punto-venta\PuntoVenta\PuntoVenta\obj\Debug\net7.0\PuntoVenta.RazorAssemblyInfo.cs
