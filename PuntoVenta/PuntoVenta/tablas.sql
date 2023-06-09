@@ -54,11 +54,3 @@ select *from VentaEncabezado;
 select *from VentaDetalle;
 select *from Cliente;
 
-
-select p.Id, p.Nombre, p.Stock, p.Precio, tp.Id as TipoProductoId, tp.Nombre
-from Producto p, TipoProducto tp
-where p.Id = tp.Id;
-
-insert into usuario (nombre, correo, contrasena) values ('Alejandro Rodriguez', 'alejandro@mail.com', '123');
-insert into TipoProducto (Nombre) values ('Higiene');
-insert into producto (nombre, stock, precio, tipoProductoId) values ('Shampoo Head&Shoulders', '20', '28.50', 1);
